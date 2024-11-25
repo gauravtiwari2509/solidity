@@ -1,0 +1,10 @@
+# Ignore all files and directories by default
+/*
+
+# But not the .gitignore file itself
+!.gitignore
+
+# And not the 01solidity directory and its contents
+!/01solidity
+/01solidity/artifacts
+/01solidity/*/artifacts
